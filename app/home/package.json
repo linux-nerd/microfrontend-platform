@@ -10,7 +10,7 @@
     "build": "rm -rf dist/ && webpack --config config/webpack.prod.js"
   },
   "dependencies": {
-    "styled-components": "5.3.3"
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

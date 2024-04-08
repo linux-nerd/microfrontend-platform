@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import ShellApp from './shell-app';
 
 ReactDOM.render(
-  <App/>,
+  <ShellApp/>,
   document.querySelector('#shell-dev-root')
 );

@@ -1,7 +1,7 @@
-export * from "./App";
+export * from "./home-page";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import HomePage from './home-page';
 
 if(window.createMfeContainerInShell) {
   window.createMfeContainerInShell('home-root');
@@ -10,7 +10,7 @@ if(window.createMfeContainerInShell) {
 const root = ReactDOM.createRoot(document.getElementById('home-root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HomePage />
   </React.StrictMode>
 );
 

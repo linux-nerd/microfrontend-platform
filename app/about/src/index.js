@@ -1,7 +1,7 @@
-export * from "./App";
+export * from "./about-page";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import AboutPage from './about-page';
 
 if(window.createMfeContainerInShell) {
   window.createMfeContainerInShell('about-root');
@@ -10,6 +10,6 @@ if(window.createMfeContainerInShell) {
 const root = ReactDOM.createRoot(document.getElementById('about-root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AboutPage />
   </React.StrictMode>
 );
